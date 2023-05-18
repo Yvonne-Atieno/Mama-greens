@@ -1,0 +1,179 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    margin-top: 30px;
+}
+.nav img{
+    width: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    /* grid-template-columns: repeat(11,1fr); */
+    /* margin-top: 30px; */
+}
+.nav button{
+    color: rgb(8, 1, 1);
+    background-color: rgb(63, 223, 57);
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.vegetables{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+        }
+.fruits{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+.hea{
+    padding-left: 47%;
+}
+.categ{
+    padding-left: 42%;
+}
+.wate img{
+    height: 200px;
+    width: 200px;
+}
+.spin img{
+    height: 200px;
+    width: 200px;
+}
+.kale img{
+    height: 200px;
+    width: 200px;
+}
+.cauli img{
+    height: 200px;
+    width: 200px;
+}
+.avo img{
+    height: 200px;
+    width: 200px;
+}
+.pear img{
+    height: 200px;
+    width: 200px;
+}
+.melon img{
+    height: 200px;
+    width: 200px;
+}
+.cherry img{
+    height: 200px;
+    width: 200px;
+}
+.wate{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;  
+
+}
+.kale{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.spin{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cauli{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.avo{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.pear{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.melon{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cherry{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.button{
+    height:40px ;
+    width:160px ;
+    background:#70a570;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    transition:  .3s ease;
+}
+.button:hover{
+    background-color: #7ddb31;
+}    
