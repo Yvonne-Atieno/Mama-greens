@@ -1,0 +1,64 @@
+   
+.navbar {
+  background-color: white;
+  display: flex;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  
+  color:orange;
+}
+
+.navbar a i {
+  margin-right: 5px;
+}
+.left{
+  margin-left: 40%;
+}
+.logo{
+  width:7%;
+  height:5%;
+}
+.fruit1{
+  width:60%;
+  height:50%;
+}
+.cart{
+  display: flex;
+  gap: 2%;
+}
+.fruit2{
+  width:60%;
+  height:50%;
+}
+.fruit3{
+  width:60%;
+  height:50%;
+}
+.bat1{
+  background-color: orangered;
+  text-decoration: solid;
+  color: white;
+  padding:2%;
+  border: solid;
+
+
+}
+
+.bat2{
+  background-color:green;
+  text-decoration: solid;
+  color: white;
+  padding: 2%;
+}
+.add1{
+  box-sizing: border-box;
+  color: #4cae4c;
+}
