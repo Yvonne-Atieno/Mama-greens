@@ -11,7 +11,6 @@
     color: black;
     display: flex;
     grid-template-columns: repeat(11,1fr);
-    /* margin-top: 30px; */
 }
 .nav button{
     color: rgb(8, 1, 1);
@@ -25,7 +24,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     gap: 2rem;
    }
    .service-container .service-box{
@@ -56,5 +54,6 @@
    .footer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    background-color: aliceblue;
+    background-color: rgb(180, 239, 93);
+    margin-bottom: 6rem;
 }
