@@ -57,3 +57,19 @@ nav ul li a{
     
     
 }
+.head{
+    padding-left: 40%;
+}
+.imag2{
+ /* margin-left: 29%; 
+ margin-top: -40%;   */
+}
+.image img{
+    height: 200px;
+    height: 200px;
+}
+.image{
+    display: flex;
+    gap: 2%;
+}
+
