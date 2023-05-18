@@ -1,0 +1,323 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    margin-top: 30px;
+}
+.nav img{
+    width: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    grid-template-columns: repeat(11,1fr);
+    /* margin-top: 30px; */
+}
+.nav button{
+    color: rgb(8, 1, 1);
+    background-color: rgb(63, 223, 57);
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+.head{
+    padding-left: 47%;
+    
+}
+.grapes img{
+height: 200px;
+width: 200px;
+}
+.rapple img{
+    height: 150px;
+    width: 200px;
+}
+.gapple img{
+    height: 150px;
+    width: 200px;
+}
+.banan img{
+    height: 200px;
+    width: 200px;
+}
+.brocco img{
+    height: 200px;
+    width: 200px;
+}
+.cabbage img{
+    height: 200px;
+    width: 200px;
+}
+.cucum img{
+    height: 200px;
+    width: 200px;
+}
+.eggp img{
+    height: 200px;
+    width: 200px;
+}
+.green img{
+    height: 200px;
+    width: 200px;
+}
+.kales img{
+    height: 200px;
+    width: 200px;
+}
+.mango img{
+    height: 200px;
+    width: 200px;
+}
+.onion img{
+    height: 200px;
+    width: 200px;
+}
+.orange img{
+    height: 200px;
+    width: 200px;
+}
+.pine img{
+    height: 220px;
+    width: 180px;
+}
+.potat img{
+    height: 200px;
+width: 200px;
+}
+.strawb img{
+    height: 200px;
+    width: 200px;
+}
+.tomato img{
+    height: 200px;
+    width: 200px;
+}
+.imag1{
+display: flex;
+column-gap: 7%;
+padding-top: 10px;
+padding-left: 5%;
+
+}
+.imag2{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+        }
+.imag3{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+.imag4{
+    display: flex;
+    column-gap: 7%;
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+.icon{
+    display: flex;
+   padding-left: 30%;
+}
+
+
+.grapes{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(230, 221, 221);
+    text-align: center;
+    padding: 30px 20px;
+
+}
+.rapple{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.gapple{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.banan{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.brocco{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cabbage{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.cucum{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.eggp{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.green{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.kales{
+display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.mango{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+
+}
+.onion{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.orange{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.pine{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.potat{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.strawb{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.tomato{
+    display: grid;
+    grid-template-columns: auto-fit,minmax(270px,1fr);
+    /* gap:15px; */
+    box-shadow: 0px;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    padding: 30px 20px;
+}
+.button{
+    height:40px ;
+    width:160px ;
+    background:#70a570;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .4s ease;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    transition:  .3s ease;
+}
+.button:hover{
+    background-color: #7ddb31;
+}
