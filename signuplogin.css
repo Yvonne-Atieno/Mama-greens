@@ -1,0 +1,123 @@
+/*    
+.navbar {
+  background-color: white;
+  display: flex;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  
+  color:orange;
+}
+
+.navbar a i {
+  margin-right: 5px;
+}
+.left{
+  margin-left: 40%;
+}
+.logo{
+  width:7%;
+  height:5%;
+}
+.fruit1{
+  width:60%;
+  height:50%;
+}
+.cart{
+  display: flex;
+  gap: 2%;
+}
+.fruit2{
+  width:60%;
+  height:50%;
+}
+.fruit3{
+  width:60%;
+  height:50%;
+}
+.bat1{
+  background-color: orangered;
+  text-decoration: solid;
+  color: white;
+  padding:2%;
+  border: solid;
+
+
+}
+
+.bat2{
+  background-color:green;
+  text-decoration: solid;
+  color: white;
+  padding: 2%;
+}
+.add1{
+  box-sizing: border-box;
+  color: #4cae4c;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #5cb85c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #4cae4c;
+}
+
+.error {
+  color: #b30000;
+  margin-top: 5px;
+}
