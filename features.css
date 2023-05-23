@@ -1,0 +1,59 @@
+.nav{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    margin-top: 30px;
+}
+.nav img{
+    width: 50%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    grid-template-columns: repeat(11,1fr);
+}
+.nav button{
+    color: rgb(8, 1, 1);
+    background-color: rgb(63, 223, 57);
+    width: 60%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   }
+   .service-container .service-box{
+       flex: 1 1 30rem;
+       background: rgb(180, 180, 221);
+       padding: 2rem 1rem 2rem;
+       border-radius: 2rem;
+       text-align: center;
+       border: 3px solid rgb(99, 167, 32);
+   }
+   .service-box i{
+       font-size: 3px;
+   }
+   .service-box{
+       font-size: 1.rem;
+   }
+   .service-box p{
+       font-size: 1rem;
+       margin: 1rem 0 3rem;
+   }
+   .service-box img{
+    width: 30%;
+    height: 10hv;
+   }
+   .heading{
+    text-align: center;
+   }
+   .footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(180, 239, 93);
+    margin-bottom: 6rem;
+}

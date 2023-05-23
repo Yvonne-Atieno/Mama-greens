@@ -1,4 +1,4 @@
-   
+/*    
 .navbar {
   background-color: white;
   display: flex;
@@ -61,4 +61,63 @@
 .add1{
   box-sizing: border-box;
   color: #4cae4c;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #5cb85c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #5cb85c;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #4cae4c;
+}
+
+.error {
+  color: #b30000;
+  margin-top: 5px;
 }
